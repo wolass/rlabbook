@@ -1,0 +1,106 @@
+---
+title: "Very informative title that describes a set of connected experiments or simply a day in the lab"
+author: Wojciech Francuzik, MD
+date: Document started on the MONDAY, 
+output:
+    html_document:
+        toc: true
+        number_sections: true
+        theme: 'united'
+        highlight: "tango"
+        fig_width: 10
+        fig_height: 6
+        fig_caption: true
+        code_folding: hide
+---
+
+```{r, setup,results='hide',echo=FALSE}
+require(knitr)
+require(knitcitations)
+require(pander)
+require(rlabbook)
+require(ggplot2)
+```
+
+This version of the document was generated on the `r Sys.Date()`
+
+# Metascience {.tabset .abst-fade .tabset-pills}
+
+## Recent events 
+
+1. I made the template for the lab notebook today which will be used for my next experiments.
+It took me 2h. 
+2. I encurage you to put your daily problems and observations in this section
+
+## Last weeks meeting
+
+Quick summary of most important observations that came up in he meeting. 
+
+## TODOs for the upcoming week
+
+The list of tasks that we agreed onn that I have to do in the upcoming week
+
+## Experiments' schedule 
+
+These experiments are planned for 16MAR2016 - keep track of what you want to do next. and plan effectively.
+
+Also don't forget to separate every line with a blank line or else it will be in one block of text.
+
+08:00 - put the culture of S. aureus and S. Epi in a fluid medium to grow in the incubator.
+
+08:30 - Get the LB broth and check if you can get an OD of 0.3 with a previous aur culture (from 14MAR2016).
+
+09:00 - Start the 96 well calibration experiment. 
+
+10:00 - Read the test results from the turbigraph with bacterial broth.
+
+11:30 - Eat lunch
+
+12:30 - start the wells experiments
+
+13:00 - the reader verification with new LEDs
+
+# The OD division experiment {.tabset .abst-fade .tabset-pills}
+
+this title above describes the experiment. the sections below will go further into the details of the experiment. You can delete this line of text after this is clear.
+
+## Aim
+
+To see if by adding a said amount of medium the OD of a sample may be divided?
+
+## Procedure
+
+1. OD measurement from a overgrown sample.
+2. take the same amount of growth medium (LB in this case).
+3. Add this to the sample and measure again the OD.
+
+Do the same thing by adding just the half of the volume.
+
+## Data 
+
+Creation of a data base is done however you like. Save the file in the same folder and then you can read it in using functions like read.csv or read.xlsx (but for this one you need to load the package)
+
+```{r}
+# Create the database to capture the data into!
+# df <- data.frame(source_conc_perc=c(100,50,25),OD=c(NA,NA,NA))
+# write.csv(df,"Data/ODdiv.csv")
+# data<-read.csv("../Data/ODdiv.csv")
+# edit(data)
+```
+
+
+## Analysis 
+
+Here is the place for the beautiful graphs you wanted to add. Do not border yourself! add as many results as you want / can.
+
+## Summary
+
+Here is the place only for the conclusions and maybe parts of text for the upcoming publication of these glorious results? 
+be concise, but describe everything as you see it and don't struggle with the language. Just be thorough. the style will be corrected anyway by the publication. 
+
+# Another experiment template {.tabset .abst-fade .tabset-pills}
+## Aim
+## Procedure
+## Data
+## Analysis 
+## Summary

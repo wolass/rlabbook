@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: rlabbook\nType: Package\nTitle: Package for electronic (wet) lab notebook keeping\nVersion: 0.1.0\nAuthor: Wojciech Francuzik\nMaintainer: Wojciech Francuzik <Wojciech.Francuzik@charite.de>\nDescription: This package provides user with set of tools to facilitate\n    electronic lab notebook keeping. It has templates for lab noteook entry records,\n    provides simple functions that help with designing the common experiments in\n    a wet lab, and serves as a guide how to conduct research in an electronic lab\n    notebook. Everything to support Open Science and beter Reserch documentation\n    techniques.\nLicense: LGPL (>= 2.0, < 3) | Mozilla Public License\nLazyData: TRUE\nRoxygenNote: 5.0.1\nDepends: tidyr, ggplot2, dplyr\n",
+    "created" : 1466635440706.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1938804770",
+    "id" : "5499C9F2",
+    "lastKnownWriteTime" : 1466631363,
+    "last_content_update" : 1466631363,
+    "path" : "~/Documents/labbook/rlabbook/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
