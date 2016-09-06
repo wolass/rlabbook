@@ -1,0 +1,33 @@
+---
+title: "Project title - set of experiments"
+author: Wojciech Francuzik, MD
+date: 01.01.01 
+output:
+    html_document:
+        toc: true
+        number_sections: true
+        theme: 'united'
+        highlight: "tango"
+        fig_width: 10
+        fig_height: 6
+        fig_caption: true
+        code_folding: hide
+---
+
+```{r, setup,results='hide',echo=FALSE}
+require(knitr)
+require(knitcitations)
+require(pander)
+require(rlabbook)
+require(ggplot2)
+```
+
+# Introduction
+
+# Experiment 1 title = one sentence summary
+
+## Hypothesis
+
+```{r include="ex1.Rmd"}
+```
+
