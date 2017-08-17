@@ -21,4 +21,3 @@ this was modified from the work by Brian D. Connelly
 \author{
 Wojciech Francuzik
 }
-

@@ -9,4 +9,3 @@ plateMap(rows_var_name = "medium", cols_var_name = "strain", rows, cols)
 \description{
 plate map function to make a quick plate map out of given conditions
 }
-

@@ -24,4 +24,3 @@ This function calculates the molar concentration of something
  5. substance density - rho expressed in grams per 1000000 microliteres (1 liter)
 You will get the value of molar concentration of the calculated medium expressed in mols per liter
 }
-

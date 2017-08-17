@@ -12,5 +12,5 @@ Description: This package provides user with set of tools to facilitate
     techniques.
 License: LGPL (>= 2.0, < 3) | Mozilla Public License
 LazyData: TRUE
-RoxygenNote: 5.0.1
-Depends: tidyr, ggplot2, dplyr
+RoxygenNote: 6.0.1
+Depends: tidyr, ggplot2, dplyr, Rpoppler, drc, grid

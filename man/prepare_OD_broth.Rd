@@ -27,4 +27,3 @@ this function is helpfull while working in the lab
 \author{
 Wojciech Francuzik
 }
-
